@@ -1,0 +1,23 @@
+= form_for(@trabajo) do |f|
+  - if @trabajo.errors.any?
+    %div{:id => "error_explanation"}
+      %h2= pluralize(@trabajo.errors.count, "error")
+      prohido salvar el trabajo revise los datos
+      %ul
+        - @trabajo.errors.full_messages.each do |msg|
+          %li= msg
+
+  %div{:class => "field"}
+    = f.label :nombre
+    = f.text_field :nombre
+
+  %div{:class => "field"}
+    = f.label :descripcion
+    = f.text_field :descripcion
+
+    %div{:class => "field"}
+    = f.label :fecha_alta
+    = f.text_field :fecha_alta
+
+    %div{:class => "actions"}
+    = f.submit

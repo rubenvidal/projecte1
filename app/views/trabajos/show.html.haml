@@ -1,0 +1,4 @@
+%h1= @trabajo.nombre
+%ul
+  - @trabajo.tareas.each do |tarea|
+    %li= tarea.nombre

@@ -1,0 +1,6 @@
+%h1 Trabajos de prueba
+%ul
+  - @trabajos.each do |t|
+    %li= link_to t.nombre, trabajo_path(t)
+%br
+= link_to 'Nuevo Trabajo', new_trabajo_path
