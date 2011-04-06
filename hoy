@@ -1,0 +1,280 @@
+    1  ruby -v
+    2  git -v
+    3  history >> primerdia
+    4  cat primerdia
+    5  clear
+    6  gvim primerdia
+    7  vim
+    8  gvim
+    9  git 
+   10  sudo apt-get install git
+   11  git clone git://github.com/jmcervera/vimfiles.git $HOME/.vim
+   12  clear
+   13  cd .vim
+   14  git submodule init
+   15  git submodule update
+   16  echo "source ~/.vim/vimrc" >~/.vimrc
+   17  echo "source ~/.vim/vimrc" 
+   18  cd ..
+   19  gvim
+   20  rvm
+   21  gvim
+   22  sudo apt-get install exuberant-ctags ncurses-term
+   23  gvim
+   24  $ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   25  sudo apt-get install curl
+   26  $ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   27  git -v
+   28  wget
+   29  $ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   30  bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   31  rvm
+   32  exit
+   33  gvim .bashrc 
+   34  exit
+   35  gvim .bashrc 
+   36  exit
+   37  gvim .bashrc
+   38  exit
+   39  rvm
+   40  type rvm | head -1
+   41  type rvm 
+   42  rvm install 1.9.2
+   43  gvim .bashrc
+   44  history >> primerdia
+   45  cat primerdia
+   46  gem -v
+   47  ruby -v
+   48  cd 
+   49  cd .rvm/
+   50  ls
+   51  cd rubies/
+   52  ls
+   53  cd ruby-1.9.2-p180/
+   54  ls
+   55  cd bin
+   56  ls
+   57  ./ruby 
+   58  ./ruby -v
+   59  exit
+   60  ruby -v
+   61  rvm list
+   62  rvm --degault use 1.9.2
+   63  rvm --default use 1.9.2
+   64  ruby -v
+   65  rvm use system
+   66  ruby -v
+   67  rvm default
+   68  ruby -v
+   69  irb
+   70  rvm notes
+   71  rvm system
+   72  ruby -v
+   73  rvm gemset list
+   74  gem list
+   75  rvm gemset create pruebaruben
+   76  rvm gemset list
+   77  rvm --default use 1.9.2
+   78  rvm gemset list
+   79  rvm use 1.9.2@pruebaruben
+   80  gem list
+   81  clear
+   82  gem install rails
+   83  sudo apt-get install zlib
+   84  gem install rails
+   85  gem -v
+   86  irb
+   87  gem update --system
+   88  irb
+   89  clear
+   90  ls
+   91  rvm notes
+   92  sudo apt-get install install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev
+   93  sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev
+   94  rvm remove 1.9.2
+   95  rvm list
+   96  rvm list known
+   97  rvm install 1.9.2
+   98  rvm gemset list
+   99  rvm use 1.9.2@pruebaruben
+  100  gem install rails
+  101  gvim
+  102  rails nei
+  103  mkdir projectes
+  104  cd projectes
+  105  rails new projecte1
+  106  cd projecte1
+  107  gvim
+  108  rails s
+  109  exit
+  110  gvim
+  111  ifconfig
+  112  exit
+  113  exit
+  114  exit
+  115  exit
+  116  exit
+  117  cd projectes
+  118  cd projecte1
+  119  rvm gemset list
+  120  rvm use default
+  121  rvm use 1.9.2
+  122  rvm gemset
+  123  rvm gemset list
+  124  rvm gemset create projecte1
+  125  rvm use 1.9.2@projecte1
+  126  gem list
+  127  clear
+  128  rvm use 1.9.2@global
+  129  gem install bundler
+  130  rvm use 1.9.2@projecte1
+  131  bundler
+  132  bundle
+  133  gem list
+  134  rake db:migrate
+  135  rails s
+  136  history >> hoy
+    1  ruby -v
+    2  git -v
+    3  history >> primerdia
+    4  cat primerdia
+    5  clear
+    6  gvim primerdia
+    7  vim
+    8  gvim
+    9  git 
+   10  sudo apt-get install git
+   11  git clone git://github.com/jmcervera/vimfiles.git $HOME/.vim
+   12  clear
+   13  cd .vim
+   14  git submodule init
+   15  git submodule update
+   16  echo "source ~/.vim/vimrc" >~/.vimrc
+   17  echo "source ~/.vim/vimrc" 
+   18  cd ..
+   19  gvim
+   20  rvm
+   21  gvim
+   22  sudo apt-get install exuberant-ctags ncurses-term
+   23  gvim
+   24  $ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   25  sudo apt-get install curl
+   26  $ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   27  git -v
+   28  wget
+   29  $ bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   30  bash < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
+   31  rvm
+   32  exit
+   33  gvim .bashrc 
+   34  exit
+   35  gvim .bashrc 
+   36  exit
+   37  gvim .bashrc
+   38  exit
+   39  rvm
+   40  type rvm | head -1
+   41  type rvm 
+   42  rvm install 1.9.2
+   43  gvim .bashrc
+   44  history >> primerdia
+   45  cat primerdia
+   46  gem -v
+   47  ruby -v
+   48  cd 
+   49  cd .rvm/
+   50  ls
+   51  cd rubies/
+   52  ls
+   53  cd ruby-1.9.2-p180/
+   54  ls
+   55  cd bin
+   56  ls
+   57  ./ruby 
+   58  ./ruby -v
+   59  exit
+   60  ruby -v
+   61  rvm list
+   62  rvm --degault use 1.9.2
+   63  rvm --default use 1.9.2
+   64  ruby -v
+   65  rvm use system
+   66  ruby -v
+   67  rvm default
+   68  ruby -v
+   69  irb
+   70  rvm notes
+   71  rvm system
+   72  ruby -v
+   73  rvm gemset list
+   74  gem list
+   75  rvm gemset create pruebaruben
+   76  rvm gemset list
+   77  rvm --default use 1.9.2
+   78  rvm gemset list
+   79  rvm use 1.9.2@pruebaruben
+   80  gem list
+   81  clear
+   82  gem install rails
+   83  sudo apt-get install zlib
+   84  gem install rails
+   85  gem -v
+   86  irb
+   87  gem update --system
+   88  irb
+   89  clear
+   90  ls
+   91  rvm notes
+   92  sudo apt-get install install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev
+   93  sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-0 libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev
+   94  rvm remove 1.9.2
+   95  rvm list
+   96  rvm list known
+   97  rvm install 1.9.2
+   98  rvm gemset list
+   99  rvm use 1.9.2@pruebaruben
+  100  gem install rails
+  101  gvim
+  102  rails nei
+  103  mkdir projectes
+  104  cd projectes
+  105  rails new projecte1
+  106  cd projecte1
+  107  gvim
+  108  rails s
+  109  exit
+  110  gvim
+  111  ifconfig
+  112  exit
+  113  exit
+  114  exit
+  115  exit
+  116  exit
+  117  cd projectes
+  118  cd projecte1
+  119  rvm gemset list
+  120  rvm use default
+  121  rvm use 1.9.2
+  122  rvm gemset
+  123  rvm gemset list
+  124  rvm gemset create projecte1
+  125  rvm use 1.9.2@projecte1
+  126  gem list
+  127  clear
+  128  rvm use 1.9.2@global
+  129  gem install bundler
+  130  rvm use 1.9.2@projecte1
+  131  bundler
+  132  bundle
+  133  gem list
+  134  rake db:migrate
+  135  rails s
+  136  history >> hoy
+  137  cat hoy
+  138  bundle
+  139  rails s
+  140  gem list
+  141  rvm use 1.9.2@globals
+  142  rvm use 1.9.2@global
+  143  gem list
+  144  history >> hoy

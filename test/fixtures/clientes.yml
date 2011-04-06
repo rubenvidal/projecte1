@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nombre: MyString
+  apellido1: MyString
+  apellido2: MyString
+  direccion: MyString
+  cod_postal: MyString
+  fecha_nacimiento: 2011-04-05
+
+two:
+  nombre: MyString
+  apellido1: MyString
+  apellido2: MyString
+  direccion: MyString
+  cod_postal: MyString
+  fecha_nacimiento: 2011-04-05
