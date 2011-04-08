@@ -1,0 +1,18 @@
+-#
+  = form_for :tarea, @tarea, :url => trabajo_tareas_path(@trabajo)
+  = form_for :tarea, @tarea, :url => trabajo_tarea_path(@trabajo, @tarea), :medhod => :put
+= form_for([@trabajo, @tarea]) do |f|
+  - if @tarea.errors.any?
+    #error_explanation
+      %h2= pluralize(@tarea.errors.count, "error")
+      prohido salvar el tarea revise los datos
+      %ul
+        - @tarea.errors.full_messages.each do |msg|
+          %li= msg
+
+  %div{:class => "field"}
+    = f.label :nombre
+    = f.text_field :nombre
+
+    %div{:class => "actions"}
+    = f.submit

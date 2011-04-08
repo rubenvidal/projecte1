@@ -1,7 +1,9 @@
 Projecte1::Application.routes.draw do
   resources :clientes
-  resources :trabajos
-
+  resources :trabajos do
+    resources :tareas
+  end
+  root :to => "clientes#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,4 +1,6 @@
 %h1= @trabajo.nombre
 %ul
   - @trabajo.tareas.each do |tarea|
-    %li= tarea.nombre
+    %li= "nombre " + tarea.nombre
+%br
+= link_to 'Nueva tarea', new_trabajo_tarea_path(@trabajo)
