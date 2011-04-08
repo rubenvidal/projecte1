@@ -8,6 +8,7 @@ gem 'rails', '3.0.5'
 gem 'sqlite3'
 
 gem 'haml-rails'
+gem 'jquery-rails', '>= 0.2.6'
 
 group :development do
   gem 'wirble'
