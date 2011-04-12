@@ -2,12 +2,12 @@
 // This file is automatically included by javascript_include_tag :defaults
 $(function() {
   var cuenta=0;
-  $("#cliente_submit").live("click", function() {
+  $("form").live("submit", function() {
    if (cuenta == 0){
       cuenta++;
       return true;
     }else{
-      alert("Formulario ya enviado");
+      alert("El formulario ya ha sido enviado,/n mensaje que evita el duplicado");
       return false;
     }
   });

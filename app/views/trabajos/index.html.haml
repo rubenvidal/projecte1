@@ -1,6 +1,9 @@
+- title "Trabajos"
 %h1 Trabajos de prueba
 %ul
   - @trabajos.each do |t|
-    %li= link_to t.nombre, trabajo_path(t)
+    %li
+      = link_to t.nombre, trabajo_path(t)
+      = link_to 'Eliminar', trabajo_path(t), :confirm => 'Si elimina este trabajo eliminara sus tareas                 '  'esta acción no se podra deshacer', :method => :delete
 %br
 = link_to 'Nuevo Trabajo', new_trabajo_path

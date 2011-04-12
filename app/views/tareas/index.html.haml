@@ -1,0 +1,7 @@
+- title "Tareas"
+%h1 Total de tareas
+%ul
+  -@tarea.each do |tarea|
+    %li
+      =link_to tarea.nombre, tarea_path(tarea)
+= paginate @tarea

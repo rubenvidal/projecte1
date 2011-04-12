@@ -2,7 +2,9 @@ class TareasController < ApplicationController
  before_filter :get_parent
 
  def index
-   @tarea = Tarea.all
+   #@tarea = Tarea.all
+   @tarea = Tarea.order('nombre').page(params[:page]).per(5)
+
  end
 
  def show
@@ -22,10 +24,17 @@ class TareasController < ApplicationController
      render :action => "new"
    end
  end
+ def destroy
+   @tarea = @trabajo.tareas.find(params[:id])
+   @tarea.destroy
+   redirect_to @trabajo
+ end
 
  private
  def get_parent
-   @trabajo = Trabajo.find(params[:trabajo_id])
+   if !params[:trabajo_id].blank?
+     @trabajo = Trabajo.find(params[:trabajo_id])
+   end
  end
 
 end

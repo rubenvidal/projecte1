@@ -1,6 +1,12 @@
+- title "Trabajos"
 %h1= @trabajo.nombre
+%p
+  %h3= @trabajo.descripcion
 %ul
   - @trabajo.tareas.each do |tarea|
-    %li= "nombre " + tarea.nombre
+    %li
+      = link_to "nombre: " + tarea.nombre, tarea_path(tarea)
+      = link_to 'Eliminar', trabajo_tarea_path(@trabajo, tarea) , :confirm => 'Esta seguro que desea borrar el registro', :method => :delete
+
 %br
 = link_to 'Nueva tarea', new_trabajo_tarea_path(@trabajo)

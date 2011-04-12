@@ -1,5 +1,6 @@
 Projecte1::Application.routes.draw do
   resources :clientes
+  resources :tareas, :only => [:index, :show]
   resources :trabajos do
     resources :tareas
   end

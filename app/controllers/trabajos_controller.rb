@@ -16,4 +16,13 @@ class TrabajosController < ApplicationController
       render :action => "new"
     end
   end
+  def destroy
+    @trabajo = Trabajo.find(params[:id])
+    @trabajo.destroy
+
+    respond_to do |format|
+      format.html { redirect_to @trabajo }
+      format.xml  { head :ok }
+    end
+  end
 end
