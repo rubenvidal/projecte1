@@ -9,6 +9,10 @@ gem 'sqlite3'
 gem 'kaminari'
 gem 'haml-rails'
 gem 'jquery-rails', '>= 0.2.6'
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+end
 
 group :development do
   gem 'wirble'
