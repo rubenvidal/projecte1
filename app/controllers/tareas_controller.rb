@@ -3,7 +3,7 @@ class TareasController < ApplicationController
 
  def index
    #@tarea = Tarea.all
-   @tarea = Tarea.order('nombre').page(params[:page]).per(5)
+   @tarea = Tarea.order('created_at').page(params[:page]).per(5)
 
  end
 

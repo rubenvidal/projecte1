@@ -182,3 +182,8 @@
 
       full_messages:
         format: "%{attribute}%{message}"
+  views:
+    pagination:
+      previous: "&lt; Anterior"
+      next: "&gt; &gt; Siguiente"
+      truncate: "..."
