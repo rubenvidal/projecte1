@@ -12,6 +12,7 @@ gem 'jquery-rails', '>= 0.2.6'
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'spork', '0.9.0.rc4'
 end
 
 group :development do
